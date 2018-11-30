@@ -26,7 +26,6 @@ public class ManterFilmesController {
 	private GeneroService gService;
 	
 	
-	
 	@RequestMapping("/")
 	public String inicio() {
 		return "index";
